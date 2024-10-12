@@ -29,7 +29,9 @@ jobs:
       - name: Commit
         uses: EndBug/add-and-commit@v9
         with:
-          message: "chore: update sponsors.svg"
+          author_name: UbLabs[bot]
+          author_email: 92824821+ublabs[bot]@users.noreply.github.com
+          message: "chore: update sponsors.svg [ci skip]"
           add: "sponsors.*"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
